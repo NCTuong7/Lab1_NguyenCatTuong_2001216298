@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#808080"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edttxtTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="To" />
+
+        <EditText
+            android:id="@+id/edttxtTieuDe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Tiêu đề" />
+
+        <EditText
+            android:id="@+id/txtNoiDung"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textPersonName"
+            android:outlineSpotShadowColor="#FF0000"
+            android:text="Nội dung" />
+
+
+        <Button
+            android:id="@+id/btnGui"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="#808080"
+            android:textColor="@color/black"
+            android:text="Gửi" />
+    </LinearLayout>
+
+</FrameLayout>

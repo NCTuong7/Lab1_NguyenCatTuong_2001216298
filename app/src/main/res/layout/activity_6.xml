@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity6">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"
+        android:textSize="10pt"
+        android:text="Chuyển năm dương sang năm âm" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDuongLich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10pt"
+            android:background="#E91E63"
+            android:textColor="#FFFFFF"
+            android:text="Nhập năm dương lịch" />
+
+        <EditText
+            android:id="@+id/txtDuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnThucHien"
+            android:layout_width="200dp"
+            android:backgroundTint="@color/gray"
+            android:textColor="@color/black"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="Thực hiện" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:text=" Năm âm lịch"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/txtAm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10pt"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+</LinearLayout>

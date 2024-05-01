@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="20pt"
+        android:gravity="center"
+        android:text="Bài tập" />
+
+    <Button
+        android:id="@+id/btnBai10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 10" />
+
+    <Button
+        android:id="@+id/btnBai9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 9" />
+
+    <Button
+        android:id="@+id/btnBai8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 8" />
+
+    <Button
+        android:id="@+id/btnBai7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 7" />
+
+    <Button
+        android:id="@+id/btnBai6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 6" />
+
+    <Button
+        android:id="@+id/btnBai5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 5" />
+
+    <Button
+        android:id="@+id/btnBai4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 4" />
+
+    <Button
+        android:id="@+id/btnBai3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D1CCCB"
+        android:text="Bài 3" />
+
+</LinearLayout>
